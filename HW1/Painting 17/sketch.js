@@ -1,6 +1,20 @@
 //define canvas variable for centering
 var cnv;
 //define diagonal line constants for 3rd and 4th sections
+/**
+ * Kevin's notes: a shorthand when declaring many variables at once 
+ * is to use commas instead of semi-colons.  
+ * You could try something like this:
+ * 
+ * var x01 = 450,
+ *  y01 = 50,
+    x11 = 600,
+    y11 = 200,
+    x02 = 800,
+    y02 = 50,
+    x12 = 650,
+    y12 = 200;
+ */
 var x01 = 450; var y01 = 50; //upper left corner 3rd segment
 var x11 = 600; var y11 = 200; //lower right corner 3rd segment
 var x02 = 800; var y02 = 50; //upper right corner 4th segment
